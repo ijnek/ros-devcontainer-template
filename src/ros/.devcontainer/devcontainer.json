@@ -1,0 +1,8 @@
+{
+  "name": "${templateOption:imageVariant}",
+  "dockerFile": "Dockerfile",
+  "runArgs": [
+    "--privileged",
+    "--network=host"
+  ]
+}

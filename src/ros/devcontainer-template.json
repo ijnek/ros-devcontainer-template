@@ -1,0 +1,17 @@
+{
+  "id": "ros",
+  "version": "0.0.1",
+  "name": "ROS",
+  "description": "A ROS Template",
+  "options": {
+    "imageVariant": {
+      "type": "string",
+      "description": "Base ROS Docker Image",
+      "proposals": [
+        "osrf/ros:foxy-desktop",
+        "osrf/ros:rolling-desktop-full"
+      ],
+      "default": "osrf/ros:rolling-desktop-full"
+    }
+  }
+}
