@@ -4,8 +4,7 @@ source test-utils.sh
 
 # Template specific tests
 check "distro" lsb_release -c
-check "color" [ $(cat /tmp/color.txt | grep red) ]
-check "distro" $ROS_DISTRO
+check "ROS_DISTRO" "$ROS_DISTRO"
 
 # Report result
 reportResults
