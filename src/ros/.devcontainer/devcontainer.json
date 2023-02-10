@@ -1,5 +1,5 @@
 {
-  "name": "${templateOption:imageVariant}",
+  "name": "${templateOption:rosDistro}-${templateOption:installationType}",
   "dockerFile": "Dockerfile",
   "runArgs": [
     "--privileged",
