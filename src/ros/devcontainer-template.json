@@ -4,14 +4,29 @@
   "name": "ROS",
   "description": "A ROS Template",
   "options": {
-    "imageVariant": {
+    "rosDistro": {
       "type": "string",
-      "description": "Base ROS Docker Image",
+      "description": "ROS Distro",
       "proposals": [
-        "osrf/ros:foxy-desktop",
-        "osrf/ros:rolling-desktop-full"
+        "melodic",
+        "noetic",
+        "foxy",
+        "galactic",
+        "humble",
+        "rolling"
       ],
-      "default": "osrf/ros:rolling-desktop-full"
+      "default": "rolling"
+    },
+    "installationType": {
+      "type": "string",
+      "description": "ROS Installation Type",
+      "proposals": [
+        "core",
+        "base",
+        "desktop",
+        "desktop-full"
+      ],
+      "default": "desktop"
     }
   }
 }

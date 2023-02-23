@@ -1,8 +1,10 @@
 {
-  "name": "${templateOption:imageVariant}",
+  "name": "osrf/ros:${templateOption:rosDistro}-${templateOption:installationType}",
   "dockerFile": "Dockerfile",
   "runArgs": [
     "--privileged",
     "--network=host"
-  ]
+  ],
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace/src/${localWorkspaceFolderBasename},type=bind",
+  "workspaceFolder": "/workspace"
 }

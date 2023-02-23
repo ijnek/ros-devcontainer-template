@@ -1,4 +1,4 @@
-FROM ${templateOption:imageVariant}
+FROM osrf/ros:${templateOption:rosDistro}-${templateOption:installationType}
 
 # Update all packages
 RUN apt update && apt upgrade -y
