@@ -7,7 +7,8 @@ A ROS Template
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| imageVariant | Base ROS Docker Image | string | osrf/ros:rolling-desktop-full |
+| rosDistro | ROS Distro | string | rolling |
+| installationType | ROS Installation Type | string | desktop |
 
 
 
