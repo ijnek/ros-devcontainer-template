@@ -26,7 +26,7 @@
         "desktop",
         "desktop-full"
       ],
-      "default": "ros-desktop"
+      "default": "desktop"
     }
   }
 }
