@@ -4,7 +4,5 @@
   "runArgs": [
     "--privileged",
     "--network=host"
-  ],
-  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace/src/${localWorkspaceFolderBasename},type=bind",
-  "workspaceFolder": "/workspace"
+  ]
 }
