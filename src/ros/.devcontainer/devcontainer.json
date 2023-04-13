@@ -1,5 +1,5 @@
 {
-  "name": "osrf/ros:${templateOption:rosDistro}-${templateOption:installationType}",
+  "name": "${templateOption:rosDistro} ${templateOption:installationType}",
   "dockerFile": "Dockerfile",
   "runArgs": [
     "--privileged",
