@@ -1,6 +1,6 @@
 {
   "id": "ros",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "name": "ROS",
   "description": "A ROS Template",
   "options": {
