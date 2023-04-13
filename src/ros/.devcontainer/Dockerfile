@@ -14,6 +14,9 @@ RUN groupadd --gid $USER_GID $USERNAME \
 # Switch from root to user
 USER $USERNAME
 
+# Add user to video group to allow access to webcam
+RUN sudo usermod --append --groups video $USERNAME
+
 # Update all packages
 RUN sudo apt update && sudo apt upgrade -y
 
