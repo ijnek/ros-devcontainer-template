@@ -22,8 +22,6 @@
       "type": "string",
       "description": "ROS Installation Type",
       "proposals": [
-        "ros-core",
-        "ros-base",
         "desktop",
         "desktop-full"
       ],
