@@ -1,5 +1,6 @@
 # ROS Dev Container Template
 
-[![demo video](https://img.youtube.com/vi/8U4LzZzureI/maxresdefault.jpg)](https://youtu.be/8U4LzZzureI)
+[![Tutorial on Articulated Robotics](https://img.youtube.com/vi/dihfA7Ol6Mw/maxresdefault.jpg)](https://youtu.be.com/dihfA7Ol6Mw)
 
-**Click on the thumbnail above to watch a video demo!**
+**Click on the thumbnail above to watch a tutorial on how to use the dev container template**
+
